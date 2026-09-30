@@ -1,3 +1,21 @@
+#single occurance
+def linearsearch(a,el):
+    for i in range(len(a)):
+        if a[i]==el:
+            return i
+        
+
+a=[12,3,14,22,56,75,14]
+print(linearsearch(a,14))
+
+
+
+
+
+
+
+
+#multiple occurance
 def linearsearch(a,el):
   ar=[]
   for i in range(len(a)):
